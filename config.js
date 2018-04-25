@@ -5,5 +5,6 @@ const config = {
     HELP_MESSAGE : ' You can ask me things like, What is the latest price for bitcoin or current price of ethereum... What can I help you with?',
     HELP_REPROMPT : 'What can I help you with?',
     STOP_MESSAGE : 'Goodbye!',
+    URL: "https://api.coinmarketcap.com/v1/ticker/"
 }
 module.exports = config;

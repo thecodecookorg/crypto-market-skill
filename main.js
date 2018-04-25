@@ -11,8 +11,8 @@ module.exports.handler = (event, context, callback) => {
   console.log("Alexa.main: registerHandlers");
 
   alexa.registerHandlers(
-    require('../handlers/defaultHandler'),
-    require('../handlers/mainHandler')
+    require('./handlers/defaultHandler'),
+    require('./handlers/mainHandler')
   );
   
   console.log("Alexa.main: registerHandlers completed");
